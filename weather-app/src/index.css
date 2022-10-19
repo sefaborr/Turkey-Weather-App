@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.background{
+    background-image: url(./icons/background.jpg);
+    opacity: 0.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    z-index: -100;
+}
+
+
+.turkey-map{
+    height: 50%;
+    width: 50%;
+}
+
+.weather-icon {
+    max-width: 100px;
+
+}
+
+
+
+.orange-text {
+    color: rgba(220,53,34);
+}
+
+.city-detail {
+    display: flex;
+    flex-direction: row;
+    background-color: #cac8c8;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 50px;
+    border-radius: 15px;
+    min-width: 60%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.detail-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+}
+
+.detail-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+}
+
+.max-min {
+    display: flex;
+    margin-top: 15px;
+}
+
+.max {
+    margin-right: 20px;
+}
+
+.detail-right {
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wind-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.wind-details {
+    display: flex;
+}
+
+
+.arrow-icon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.speed-icon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.wind-deg {
+    display: flex;
+    margin-right: 25px;
+}
+
+.wind-speed {
+    display: flex;
+}
+
+.search-input {
+    width: 50vw;
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(220,53,34);
+    font-weight: bold;
+}
+
+.search-area {
+    padding-top: 50px;
+    z-index: 100;
+}
